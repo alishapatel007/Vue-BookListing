@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h1>{{books.title}}</h1>
-        <ul v-for="book in books"> 
-            <li>{{book.author}}</li>
+        <h1>{{title}}</h1>
+        <ul > 
+            <li v-for="book in books">{{book.title}} : {{book.author}}</li>
         </ul>
     </div>
 </template>
